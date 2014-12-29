@@ -1,9 +1,11 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global fmpp_version 0.9.14
 
 Name:		fmpp
 Version:	%{fmpp_version}
-Release:	2%{?dist}
+Release:	2.1
 Summary:	FreeMarker-based text file PreProcessor 
+Group:		Development/Java
 
 License:	BSD
 URL:		http://fmpp.sourceforge.net
@@ -108,7 +110,7 @@ find %{buildroot} -size 0 -delete
 %doc LICENSE.txt README.txt
 %{_javadir}/%{name}.jar
 %{_mavenpomdir}/JPP-%{name}.pom
-%{_mavendepmapfragdir}/%{name}
+%{_datadir}/maven-metadata/*
 
 %files javadoc
 %doc LICENSE.txt README.txt
