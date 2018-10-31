@@ -3,7 +3,7 @@
 
 Name:		fmpp
 Version:	%{fmpp_version}
-Release:	2.2
+Release:	2.3
 Summary:	FreeMarker-based text file PreProcessor 
 Group:		Development/Java
 
