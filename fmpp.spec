@@ -8,7 +8,7 @@ Summary:	FreeMarker-based text file PreProcessor
 Group:		Development/Java
 
 License:	BSD
-URL:		http://fmpp.sourceforge.net
+URL:		https://fmpp.sourceforge.net
 Source0:	http://prdownloads.sourceforge.net/fmpp/fmpp_%{version}.tar.gz
 
 Patch0:		fmpp-0.9.14-build.xml.patch
